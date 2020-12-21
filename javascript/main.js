@@ -1,1 +1,1 @@
-$("tributepageiframe").colorbox({iframe:true, innerWidth:425, innerHeight:344});
+$(".tributepageiframe").colorbox({iframe:true, innerWidth:425, innerHeight:344});
