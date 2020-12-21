@@ -15,11 +15,29 @@ img {
 }
 
 .list-bullets{
-  padding-left:200px;
+  padding-left:84px;
 }
 
 .wiki-text{
    margin-left:120px;
    margin-right:120px;
    text-align:center;
+}
+
+
+.container{
+  width:100%;
+  margin: 0 auto 0 auto;
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
 }
