@@ -14,4 +14,12 @@ img {
   width:80%;
 }
 
+.list-bullets{
+  padding-left:200px;
+}
 
+.wiki-text{
+   margin-left:120px;
+   margin-right:120px;
+   text-align:center;
+}
