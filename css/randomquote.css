@@ -1,0 +1,50 @@
+body {
+  background-color: #333;
+  color: #333;
+  font-family: 'Oswald', sans-serif;
+  font-weight:400;
+}
+.footer {
+  width:450px;
+  text-align:center;
+  display:block;
+  margin:15px auto 30px auto;
+  font-size:0.8em;
+  color:#fff;
+}
+.quote-box {
+  border-radius:3px;
+  margin:8% auto auto auto;
+  width:450px;
+  padding:40px 50px;
+  background-color:#fff;
+}
+.quote-text{
+  font-family: 'Oswald', sans-serif;
+  font-size:20px;
+  font-weight:600;
+}
+
+.quote-author{
+  font-family: 'Oswald', sans-serif;
+  font-size:20px;
+  font-weight:400;
+}
+
+.buttons{
+  margin-top:30px;
+  font-size:25px;
+}
+#tweet-quote{
+  padding-right:20px;
+  outline:none;
+}
+#tumblr-quote{
+  padding-right:100px;
+  outline:none;
+}
+#new-quote{
+  outline:none;
+  border-radius:15%;
+  color: #fff;
+}
