@@ -2,25 +2,22 @@ $blue: #a3d5d3;
 
 body {
   background-color: $blue;
-  margin-top:60px;
 }
 
 img {
-  width:75%;
+  width:100%;
 }
 
 .thumbnail{
   background:powderblue;
-  width:80%;
+  width:100%;
 }
 
 .list-bullets{
-  padding-left:84px;
+	
 }
 
 .wiki-text{
-   margin-left:120px;
-   margin-right:120px;
    text-align:center;
 }
 
