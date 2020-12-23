@@ -1,8 +1,15 @@
+/***** HOME *****/
 
-#home {
-  background: url("https://dl.dropboxusercontent.com/s/8rpbf8qoqjr05be/IMG_2362.JPG?dl=0") no-repeat center center fixed;
+body, html{
+  height:100%;
+}
+
+.home-hero {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://dl.dropboxusercontent.com/s/8rpbf8qoqjr05be/IMG_2362.JPG?dl=0");
+  height:100%;
   background-size: cover;
-  height: 680px;
+  background-position: left;
+  background-repeat: no-repeat;
 }
 
 .home-wrap {
@@ -70,7 +77,7 @@ img {
 }
 
 .navbar {
-  background-color: grey;
+  background-color: #666;
 }
 
 .navbar ul li a {
