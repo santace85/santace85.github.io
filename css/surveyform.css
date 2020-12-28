@@ -1,52 +1,59 @@
-
-
-header{
-  text-align:center;
+header {
+  text-align: center;
   font-family: Helvetica, Arial, sans-serif;
+  color: white;
 }
 
-body{
-  text-align:center;
+body {
+  background-image: url("https://images.unsplash.com/photo-1608749333098-a72487cff005?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1574&q=80");
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
   font-family: Helvetica, Arial, sans-serif;
-  font-size:22px;
+  font-size: 22px;
 }
 
-footer{
-  text-align:center;
+footer {
+  text-align: center;
   font-family: Helvetica, Arial, sans-serif;
+  color: white;
 }
 
-label{
-  display:flex;
-  align-items:center;
-  font-weight:bold;
+label {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
 }
 
 input,
 button,
 select,
 textarea {
-  margin-top:10px;
+  margin-top: 10px;
   margin-bottom: 10px;
   font-family: inherit;
   font-size: inherit;
   line-height: inherit;
 }
 
-form{
-  background-color:hsl(150, 50%, 75%);
+form {
+  background-color: grey;
   padding: 55px;
   border-radius: 10px;
+  opacity: 0.8;
+  text-align: left;
 }
 
-.form-control{
-  display:block;
+.form-control {
+  display: block;
   width: 100%;
   border-radius: 4px;
-} 
+}
 
-.container{
-  width:100%;
+.container {
+  width: 100%;
   margin: 0 auto 0 auto;
 }
 
@@ -62,3 +69,32 @@ form{
   }
 }
 
+.clue {
+  font-size: 14px;
+  margin-left: 10px;
+}
+
+.snack-label {
+  font-size: 18px;
+}
+
+.prefer-radio {
+  font-size: 18px;
+}
+
+.input-textarea {
+  min-height: 120px;
+  width: 100%;
+  padding: 0.625rem;
+  resize: vertical;
+}
+
+.submit-button {
+  display: block;
+  width: 100%;
+  padding: 0.75rem;
+  background: rgb(14, 228, 14);
+  color: inherit;
+  border-radius: 2px;
+  cursor: pointer;
+}

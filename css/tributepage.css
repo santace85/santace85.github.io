@@ -5,25 +5,23 @@ body {
 }
 
 img {
-  width:100%;
+  width: 100%;
 }
 
-.thumbnail{
-  background:powderblue;
-  width:100%;
+.thumbnail {
+  background: powderblue;
+  width: 100%;
 }
 
-.list-bullets{
-	
+.list-bullets {
 }
 
-.wiki-text{
-   text-align:center;
+.wiki-text {
+  text-align: center;
 }
 
-
-.container{
-  width:100%;
+.container {
+  width: 100%;
   margin: 0 auto 0 auto;
 }
 

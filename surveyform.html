@@ -1,5 +1,4 @@
 
-
 <!DOCTYPE html>
 <html>
 
@@ -12,7 +11,6 @@
 <div class="container">
 <header>
 	<h1 id="title">Survey Form</h1>
-	<p>(in progress)</p>
 	<p id="description">This is a survey form for the freeCodeCamp Challenge</p>
 </header>
 
@@ -54,11 +52,102 @@
         name="role" 
         class="form-control" 
         required>
-    <option>
-      
+    <option disabled selected value>Select a genre</option>
+    <option value="action">Action</option>
+    <option value="horror">Horror</option>
+    <option value="comedy">Comedy</option>
+    <option value="drama">Drama</option>
+    <option value="scifi">Sci-Fi</option>
+    <option value="other">Other</option> 
   </select>
-                                    
-                                   
+
+  <label>How do you prefer watching movies?</label>
+  <label class="prefer-radio">
+    <input
+      name="watching-pref"
+      value="alone"
+      type="radio"
+      class="input-radio"
+      checked
+    />Alone</label>
+  <label class="prefer-radio">
+    <input
+      name="watching-pref"
+      value="friends"
+      type="radio"
+      class="input-radio"
+    />with Friends</label>
+  <label class="prefer-radio">
+    <input
+      name="watching-pref"
+      value="family"
+      type="radio"
+      class="input-radio"
+    />with Family</label>
+  <label class="prefer-radio">
+    <input
+      name="watching-pref"
+      value="pets"
+      type="radio"
+      class="input-radio"
+      />with Pets</label>
+                                 
+  <label id="snacks-label">Choose your favorite movie snacks.<span class="clue">(Check up to three)</span></label>
+    
+
+  <label class="snack-label"
+    ><input
+      name="snacks"
+      value="soda"
+      type="checkbox"
+      class="input-checkbox"
+    />Soda</label
+  >
+  <label class="snack-label">
+    <input
+      name="snacks"
+      value="popcorn"
+      type="checkbox"
+      class="input-checkbox"
+    />Popcorn</label
+  >
+  <label class="snack-label"
+    ><input
+      name="snacks"
+      value="chocolate"
+      type="checkbox"
+      class="input-checkbox"
+    />Chocolate</label
+  >
+  <label class="snack-label"
+    ><input
+      name="snacks"
+      value="candy"
+      type="checkbox"
+      class="input-checkbox"
+    />Candy</label
+    >
+    <label class="snack-label">
+  <input
+      name="snacks"
+      value="pizza"
+      type="checkbox"
+      class="input-checkbox" />
+    Pizza
+    </label>     
+  
+  <label>Any comments or suggestions?</label>
+      <textarea
+        id="comments"
+        class="input-textarea"
+        name="comment"
+        placeholder="Enter your comment here..."
+      ></textarea>
+
+
+      <button type="submit" id="submit" class="submit-button">
+        Submit
+      </button>
   
 </form>
 </body>
@@ -69,5 +158,17 @@
 </footer>
 
 </container>
+
+<script>
+  var checks = document.querySelectorAll(".input-checkbox");
+var max = 3;
+for (var i = 0; i < checks.length; i++)
+  checks[i].onclick = selectiveCheck;
+function selectiveCheck (event) {
+  var checkedChecks = document.querySelectorAll(".input-checkbox:checked");
+  if (checkedChecks.length >= max + 1)
+    return false;
+}
+</script>
 
 </html>
